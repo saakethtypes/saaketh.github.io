@@ -338,6 +338,9 @@ p {
   100% {
     transform: scale(1); } }
 /********Body Sec CSS********/
+.underline{
+  text-decoration: underline;
+}
 .fixed-bg {
   background: transparent url("../img/mainbg.jpg") no-repeat;
   image-rendering: optimizeQuality;
