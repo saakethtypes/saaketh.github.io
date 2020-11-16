@@ -1,0 +1,525 @@
+import React from 'react'
+import '../css/style.css';
+
+export const Portfolio = () => {
+    
+    return (
+        
+            <div>
+                <div className="fixed-bg"></div>
+<div className="fixed-bg-overlay"></div>
+
+<div className="container-fluid">
+    <div className="row">
+        <div id="vertical_nav_wrap" className="col-lg-4 col-xs-12 pad-zero vertical-nav-wrap">
+
+            <nav className="navbar navbar-default vertical-nav" role="navigation">
+                <div className="navbar-header">
+                    <button type="button" className="btn btn-default navbar-toggle" data-toggle="collapse"
+                        data-target="#navbar_collapse">
+                        <span className="mask"></span>
+                        <span className="btn-label">
+                            <span className="pe-7s-menu"></span>
+                        </span>
+                    </button>
+                </div>
+                <div className="collapse navbar-collapse" id="navbar_collapse">
+                    <ul className="nav navbar-nav">
+                        <li><a className="data-scroll" href="#body">.</a><span>about</span></li>
+                        <li><a className="data-scroll" href="#services_sec">.</a><span>What i do</span></li>
+                        <li><a className="data-scroll" href="#skill_sec">.</a><span>skills</span></li>
+                        <li><a className="data-scroll" href="#work_sec">.</a><span>work</span></li>
+                        <li><a className="data-scroll" href="#edu_sec">.</a><span>education</span></li>
+                        <li><a className="data-scroll" href="#exp_sec">.</a><span>experience</span></li>
+                        <li><a className="data-scroll" href="#contact_sec">.</a><span>contact</span></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <div className="col-lg-8 col-xs-12 pad-zero">
+
+            <header>
+                <div className="header-wrap col-lg-10 center-div">
+                    <div className="float-left name">
+                        <a className="data-scroll" href="#body">
+                            <span>
+                                SAAKETH CH
+                            </span>
+                        </a>
+                    </div>
+                    <div className="float-right social-download-wrap">
+                        <a href="SaakethCh_Resume_Sep2020.pdf" className="btn btn-default float-left" download>
+                            <span className="mask"></span>
+                            <span className="btn-label">
+                                <b>download resume</b>
+                                <span className="icon pe-7s-download"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div className="clearfix"></div>
+            </header>
+
+            <div id="main_content" className="content-block margin-top-150 margin-top-sm-70 margin-top-xs-50">
+
+                <section id="intro_content_sec"
+                    className="col-lg-10 col-md-11 col-sm-11 center-div intro-content-wrap sec-pad">
+                    <div className="person-img margin-bottom-xs"></div>
+                    <h1>
+                        Hey!<span id="typed"></span>
+                    </h1>
+                    <h6>
+                        about
+                    </h6>
+                    <p className="pad-bottom-35 wow fadeInUp" data-wow-duration=".6s">
+                        The very idea of coming up with rules that a certain nobody can follow is some sort of a universal language.
+                        Coding is my way of doing that.
+                        <p className="wow fadeInUp">
+                            <br></br>
+                        I'm good with faces and we'd have a nice conversation if we could connect on
+                        Films, Music and Michael Scott.
+                    </p></p>
+                    <p className="wow fadeInUp" data-wow-duration=".4s">
+                        Find my work on <a className="goto-social" href="https://github.com/saakethtypes"
+                            target="_blank" rel="noopener noreferrer" >Github</a> and 
+                            <a className="goto-social" href="https://www.linkedin.com/in/saaketh-ch-9b879417a/"
+                            target="_blank" rel="noopener noreferrer" > LinkedIn</a>.
+                             Experience my photography skills on <a
+                            href="https://instagram.com/saaketh89" className="goto-social"
+                            target="_blank" rel="noopener noreferrer" >Instagram</a>.
+                        I stream a ton of live coding and gaming on my <a
+                            href="https://www.twitch.tv/saaketh56" className="goto-social"
+                            target="_blank" rel="noopener noreferrer" >Twitch</a>.
+                             Let's talk while gaming, here's my <a
+                            href="https://www.twitch.tv/saaketh56" className="goto-social"
+                            target="_blank" rel="noopener noreferrer" >Discord</a>.
+                        
+                            I like to explain concepts  on my 
+                            
+                            <a
+                            href="https://saakethtypes.github.io/saakethcodes" className="goto-social"
+                            target="_blank" rel="noopener noreferrer" > Blogs</a>.
+                        Developer and owner of <a className="goto-social" href="https://www.elywalls.com"
+                            target="_blank" rel="noopener noreferrer" >Elywalls</a>.
+                    </p>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <section id="services_sec"
+                    className="col-lg-10 col-md-11 col-sm-11 center-div services-icon-wrap  sec-pad-top sec-pad-bottom-xs">
+                    <h6>what i do</h6>
+                    <div className="row">
+                        <div className="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft"
+                            data-wow-duration=".4s" data-wow-delay="0s">
+                            <span className="icon pe-7s-graph3"></span>
+                            <span className="key-fact">
+                                AI
+                            </span>
+                        </div>
+                        <div className="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft"
+                            data-wow-duration=".4s" data-wow-delay=".1s">
+                            <span className="icon pe-7s-browser"></span>
+                            <span className="key-fact">
+                                Web dev 
+                            </span>
+                        </div>
+                        <div className="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft"
+                            data-wow-duration=".4s" data-wow-delay=".2s">
+                            <span className=" icon pe-7s-tools"></span>
+                            <span className="key-fact">
+                                STRATEGIZE
+                            </span>
+                        </div>
+                        <div className="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft"
+                            data-wow-duration=".4s" data-wow-delay=".3s">
+                            <span className="icon pe-7s-note2"></span>
+                            <span className="key-fact">
+                                Data modeling
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <section id="skill_sec"
+                    className="col-lg-10 col-md-11 col-sm-11 center-div skills-wrap  sec-pad-top sec-pad-bottom-xs">
+                    <h6>technical skills</h6>
+                    <p className="wow fadeInUp" data-wow-duration=".4s">I'm a 20 year old student from MU, Hyd currently
+                        persuing my Mechanical degree.
+                        I know it sounds out of place but so was I when I was choosing my major. Half way into
+                        sophomore year
+                        I started learning code because of a C programming workshop in my college. I got everything
+                        on my first try
+                        and that never happened before. Got excited whenever I saw the output in the terminal. I
+                        fell in love with
+                        the idea of instuctions and computation. Eventually I started solving tougher puzzles on
+                        codeforces,hackerrank and gained confidence.
+                        Programming became my full time thing. Taught myself Full stack and AI.
+                        By the end of fifth semester I was fluent with my skills. After too much coffee and typing I
+                        have decided
+                        to have my fun learning new things in the industry and break routine. I'd mostly be working
+                        with these technologies.</p>
+                    <div className="row margin-top-40">
+                        <div className="col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > PYTHON, C++</span>
+                            
+                        </div>
+                        <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > REACT JS, Node JS</span>
+
+                        </div>
+                        <div className="col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > AI & DL</span>
+                            
+                        </div>
+                        <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > Mongo Db</span>
+                            
+                        </div>
+                        <div className="col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > ALGORITHMS</span>
+                            
+                        </div>
+
+                        <div className="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+                            <span className="progress-cat"> > Data mining</span>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <section id="work_sec" className="col-lg-10 col-md-11 col-sm-11 center-div work-wrap  sec-pad">
+                    <h6>recent works</h6>
+                    <div className="portfolio-wrap project-gallery padding-sec-lg">
+                        <ul id="portfolio" className="portf " data-col="2">
+
+                            <li className="item" data-src="https://media.giphy.com/media/gvT9WdrtpPmDSAFAEj/giphy.gif"
+                                data-sub-html="<h6 >URBI</h6><div><h2>Currently live at Urbankisaan's tomato farm</h2><p>Source Code Protected</p></div>">
+                                <h3>URBI</h3>
+                                <h4 className='projectdesc'>
+                                    A Rover based intelligence using CNNs to achieve real-time detection 
+                                    to find more harvestable produce, and detect plant diseases in the farm. URBI the rover
+                                    roams around the farm and keeps track of every plant. 
+                                </h4>
+                                
+                                <br></br>
+                                <h4 className='liveat'>Expand to vist</h4>
+                                <a href="/#">
+<iframe title="blah" src="https://giphy.com/embed/gvT9WdrtpPmDSAFAEj" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe><p></p>
+                                    <span className="hover-cap">URBI</span>
+                                </a>
+
+                            </li>
+
+                            <li className="item" data-src="https://media.giphy.com/media/anQ88pyVxQyb1MPFDP/giphy.gif"
+                                data-sub-html="<h6>ELYWALLS</h6><div><h2>Live at <a className= 'liveat' href='https://www.elywalls.com'>Elywalls</a></h2><p>Source Code on <a className= 'liveat' href='https://github.com/saakethtypes/Elywalls'>Git</a></p></div>">
+                            
+                                <h3>Elywalls</h3>
+                                <h4 className='projectdesc'>
+                                    A Full fledged E-Commerce website for
+                                    artists and photgraphers to sell their
+                                    work. I set this up as a start up in Sep `20.
+                                    This is easily one of my biggest
+                                    projects. The site is now live and taking orders.
+                                </h4>
+                                <br></br>
+                                <h4 className='liveat'>Expand to vist</h4>
+
+                                <a href="/#">
+                                <iframe title="blah" src="https://giphy.com/embed/anQ88pyVxQyb1MPFDP" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe><p></p>
+                                    <span className="hover-cap">ELYWALLS</span>
+                                </a>
+                                
+                            </li>
+                            <li className="item" data-src="../img/mridagif.gif"
+                                data-sub-html="<h6>MRIDA</h6><div><div><h2>Live at <a className= 'liveat' href='https://mridasdgtool.com'>Mrida</a></p><p>Source Code Protected</div>">
+                                <h3>Mrida</h3>
+                                
+                                <h4 className='projectdesc'>Built a dynamic data registry 
+                                    website for field agents across rural India. </h4>
+
+<br></br>
+                                <h4 className='liveat'>Expand to vist</h4>
+
+                                <a href="/#">
+                                    <img className="img-responsive" src="../img/mridagif.gif" alt="description" />
+                                    <span className="hover-cap">MRIDA GROUP</span>
+                                </a>
+                                
+                            </li>
+                            <li className="item" data-src="todsgif.gif"
+                                data-sub-html="<h6 >TODS</h6><div><h2>Live at <a className= 'liveat' href='https://www.todsnow.me'>Tods</a></h2><p>Source Code on <a className= 'liveat' href='https://github.com/saakethtypes/Tods'>Git</a></p></div>">
+                                <h3>Tods</h3>
+                                <h4 className='projectdesc'>A neat looking, customizable To-do
+                                    app to plan and keep up with your daily tasks.</h4>
+                                <br></br>
+                                <h4 className='liveat'>Expand to vist</h4>
+                                <a href="/#">
+                                <img className="img-responsive" src="src\img\todsgif.gif" alt="description" />
+                                <span className="hover-cap">TODS</span>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <section id="edu_sec" className="col-lg-10 col-md-11 col-sm-11 center-div education-wrap  sec-pad">
+                    <h6>education</h6>
+                    <div className="qualfication-wrap">
+                        <div className="qualfication first-row wow fadeInUp" data-wow-duration=".4s">
+                            <div className="col-sm-2">
+                                <span className="yr-pers vertical-align-pad">2017-2021</span>
+                            </div>
+                            <div className="col-sm-5">
+                                <span className="insti vertical-align-pad">Mahindra University, Hyd</span>
+                            </div>
+                            <div className="col-sm-3">
+                                <span className="design vertical-align-pad">
+                                    Bachelors degree in Mechanical Engineering.
+                                </span>
+                            </div>
+                        </div>
+                        <div className="qualfication wow fadeInUp" data-wow-duration=".4s">
+                            <div className="col-sm-2">
+                                <span className="yr-pers vertical-align-pad">2015-2017</span>
+                            </div>
+                            <div className="col-sm-5">
+                                <span className="insti vertical-align-pad">Altitude classNamees, Hyd</span>
+                            </div>
+                            <div className="col-sm-3">
+                                <span className="design vertical-align-pad">
+                                    Secondary high school (MPC)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <section id="exp_sec" className="col-lg-10 col-md-11 col-sm-11 center-div experience-wrap  sec-pad">
+                    <h6>experience</h6>
+                    <div className="exp-timeline-wrap">
+                        
+                        <div className="row exp-timeline timeline-active">
+                            <div className="col-xs-2">
+                                <div className="timeline-st"></div>
+                            </div>
+                            <div className="col-xs-10 exp-content-wrap">
+                                <div className="row">
+                                    <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.2s">
+                                        <div className="col-sm-3 duration"><span>Aug 2020 — Oct 2020 <div></div></span></div>
+                                        <div className="col-sm-9">
+                                            <span className="job-desn">AI Developer</span>
+                                            <span className="job-loc liveat"> <span className='liveat'>Urbankisaan
+                                            </span> , Hyd
+                                            </span>
+                                            <p className="job-summary p-small">
+                                                This project was presented at TechCrunch 2020. Integrated an AI onto a rover which 
+                                                is deployed in a tomato farm scanning plants. Each plant has a profile listing down 
+                                                details such as count of ripe tomatoes, plant health, infected disease etc. which the 
+                                                AI detects along with it’s location in the farm. This information is fed onto a DB 
+                                                everyday along with a farm summary of healthy plants and no. of ready to harvest fruits.
+                                                I was the lead in this project and responsible for 
+                                                developing the AI, Integration of the AI onto the rover and Data pipeline flow.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row exp-timeline ">
+                            <div className="col-xs-2">
+                                <div className="timeline-st"></div>
+                            </div>
+                            <div className="col-xs-10 exp-content-wrap">
+                                <div className="row">
+                                    <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0s">
+                                        <div className="col-sm-3 duration"><span>July 2020 - Aug 2020 
+                                            <div><h4> View <a className='liveat' href='https://drive.google.com/file/d/1SWWXVVZBqBzhUKbbGmWb6itXTkS3Ng-W/view?usp=sharing' target="_blank" rel="noopener noreferrer" >Certificate</a>
+                                            </h4></div></span></div>
+                                        <div className="col-sm-9">
+                                            <span className="job-desn">Backend Developer</span>
+                                            <span className="job-loc"> 
+                                                <span className='liveat'>Mrida
+                                                </span> , Hyd</span>
+                                            
+                                            <p className="job-summary p-small">Mrida is an NGO working towards
+                                                developing rural India and creating VLE's, I had the opportunity to
+                                                join as an intern and create something useful for them. Along side a fellow intern, 
+                                                we made a dynamic data 
+                                                registry  tool and managed to make the website ready for professional  use.  I was 
+                                                responsible for data modeling, API development and the overall workflow.
+                                                I gained a lot of professional  work experience and learnt work ethics.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row exp-timeline">
+                            <div className="col-xs-2">
+                                <div className="timeline-st"></div>
+                            </div>
+                            <div className="col-xs-10 exp-content-wrap">
+                                <div className="row">
+                                    <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.2s">
+                                        <div className="col-sm-3 duration"><span>June 2020 — July 2020 <div><h4> View <a className='liveat' href='/#'>Certificate</a>
+                                        </h4></div></span></div>
+                                        <div className="col-sm-9">
+                                            <span className="job-desn">AI Analyst</span>
+                                            <span className="job-loc"><span className='liveat'>Urbankisaan
+                                            </span> , Hyd
+                                            </span>
+                                            <p className="job-summary p-small">
+                                                This hydroponics start-up grew really fast just like their crops. I
+                                                had the opportunity to perform crop sales prediction using the ARIMA
+                                                model. Later performed analysis on sales for a bigger company to
+                                                co-relate their sales with Urbankisaan. I gained professional 
+                                                experience and a liking towards greens and getting healthy.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row exp-timeline">
+                            <div className="col-xs-2">
+                                <div className="timeline-st"></div>
+                            </div>
+                            <div className="col-xs-10 exp-content-wrap">
+                                <div className="row">
+                                    <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.4s">
+                                        <div className="col-sm-3 duration"><span>May 2020 – June 2020 <div><h4> View <a className='liveat' href='https://drive.google.com/file/d/1CBiKhI2eK3aki_wyoCpsnkCk2uQ8vNgT/view?usp=sharing' target="_blank" rel="noopener noreferrer" >Certificate</a>
+                                        </h4></div></span></div>
+                                        <div className="col-sm-9">
+                                            <span className="job-desn">Software Intern
+                                            </span>
+                                            <span className="job-loc"><span className='liveat'>Focus Softnet
+                                            </span> , Hyd
+                                            </span>
+                                            <p className="job-summary p-small">
+                                                Worked along with a college friend under a Project manager in Focus.
+                                                We had to decrypt C struct files coming in real-time live from a
+                                                server and feed its data to a dashboard. We created the automation
+                                                scripts and the dashboard. I gained professional  experience.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row exp-timeline">
+                            <div className="col-xs-2">
+                                <div className="timeline-st"></div>
+                            </div>
+                            <div className="col-xs-10 exp-content-wrap">
+                                <div className="row">
+                                    <div className="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+                                        <div className="col-sm-3 duration"><span>Aug 2019 – Sept 2018 <div><h4> View <a className='liveat' href='/#'>Certificate</a>
+                                        </h4></div></span></div>
+                                        <div className="col-sm-9">
+                                            <span className="job-desn">Software Intern
+                                            </span>
+                                            <span className="job-loc"><span className='liveat'>Graylogic Technologies
+                                            </span> , Hyd
+                                            </span>
+                                            <p className="job-summary p-small">As my first professional  internship I had
+                                                to make an App.Lead the project of Caper with a team of 5. This App
+                                                is made for sports enthusiasts to help find a partner using GPS in a
+                                                particular sport, matching their skill level. I developed the
+                                                Frontend of the App. I gained leadership qualities and
+                                                practicalities of programming an app idea. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact_sec" className="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap sec-pad">
+                    <h6>contact</h6>
+                    <div className="email-direct">
+                        <p className="wow fadeInRight" data-wow-duration=".4s">Simply email me at <a
+                                href="mailto:saakethlogs@gmail.com">saakethlogs@gmail.com</a> 
+                                
+                            </p></div>
+                            <br></br>
+                        <h4> VIEW <a className='liveat' href ='https://drive.google.com/file/d/1mcKYRGJwQ6PwRVP2aKwfvS0AJmaEl6MW/view?usp=sharing' target="_blank" rel="noopener noreferrer" > RESUME </a>
+                        </h4>	
+                    <div className="social-icons-wrap float-right">
+
+                        <ul className="social-icons float-right">
+                            <li>
+                                <a href="/#" className="social-icon">
+                                    <span className="fa" data-hover="&#xf16e;">&#xf16e;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/#" className="social-icon">
+                                    <span className="fa" data-hover="&#xf16d;">&#xf16d;</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+                <hr className="separater-hr" />
+
+                <footer className="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad">
+                    <div className="row">
+
+                        <div className="col-sm-6">
+                            <div className="social-icons-wrap float-right">
+
+                                <ul className="social-icons float-right">
+                                    <li>
+                                        <a href="https://github.com/saakethtypes" className="social-icon">
+                                            <span className="fa" data-hover="&#xf16e;">&#xf16e;</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/saaketh89" className="social-icon">
+                                            <span className="fa" data-hover="&#xf16d;">&#xf16d;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div className="goto-top text-right float-right">
+                                <a data-scroll href="#body">
+                                    <span data-hover="top">
+                                        top
+                                    </span>
+                                </a><br></br>
+                                <a className='liveat' href="https://cicada24.herokuapp.com" >Go down a rabbit hole</a>
+
+                            </div>
+                            <div className="copywrite-wrap text-right float-center">
+                                <p className="copywrite">Template creds - <b>Hencework </b>
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+            </div>
+        )
+    }
