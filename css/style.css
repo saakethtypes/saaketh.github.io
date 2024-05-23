@@ -804,6 +804,19 @@ a.goto-social, a.goto-social:hover {
   padding-top: 10px;
   display: block; }
 
+  .backed-by {
+    visibility: visible;
+    opacity: 2;
+    transition: visibility 0s, opacity 0.5s linear;
+    margin-left: 10px;
+    
+    font-style: italic;
+    font-size: 0.9em;
+}
+.job-loc.liveat:hover .backed-by {
+  visibility: visible;
+  opacity: 1;
+}
 /********Experience Sec CSS********/
 .experience-wrap .duration span {
   color: #fff;
